@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Registrazione</title>
+</head>
+<body>
+    <h1>Registrazione sito internet</h1>
+    <form action="">
+        <div><input type="text" name="nome" minlength="2" placeholder="inserisci nome" required></div>
+        <div><input type="text" name="cognome" placeholder="inserisci cognome" required></div>
+        <div><input type="email" name="email" placeholder="inserisci email" required></div>
+        <div>
+            <select name="regione" id="regione" required>
+                <option value="abruzzo">Abruzzo</option>
+                <option value="lazio">Lazio</option>
+                <option value="umbria">Umbria</option>
+                <option value="toscana">Toscana</option>
+                <option value="campania">Campania</option>
+            </select>
+        </div>
+        <div>
+            <input type="radio" name="età" required>0-18
+            <input type="radio" name="età" required>18+
+        </div>
+        <div><input type="checkbox" name="termini"required>Accetta i termini e le condizioni</div>
+        <div><input type="submit"></div>
+        
+    </form>       
+</body>
+</html>
